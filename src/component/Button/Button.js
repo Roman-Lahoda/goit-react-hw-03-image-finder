@@ -8,4 +8,9 @@ const Button = ({ text, func }) => {
   );
 };
 
+Button.propTypes = {
+  text: PropTypes.string,
+  func: PropTypes.func,
+};
+
 export default Button;

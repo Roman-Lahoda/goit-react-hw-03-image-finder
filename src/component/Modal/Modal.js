@@ -1,4 +1,5 @@
 import { Component } from "react";
+import PropTypes from "prop-types";
 
 class Modal extends Component {
   state = {};
@@ -31,5 +32,10 @@ class Modal extends Component {
     );
   }
 }
+
+Modal.propTypes = {
+  obj: PropTypes.object,
+  onClose: PropTypes.func,
+};
 
 export default Modal;

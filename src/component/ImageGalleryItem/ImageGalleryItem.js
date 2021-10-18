@@ -15,4 +15,9 @@ const ImageGalleryItem = ({ obj, imgClick }) => {
   );
 };
 
+ImageGalleryItem.propTypes = {
+  obj: PropTypes.object,
+  imgClick: PropTypes.func,
+};
+
 export default ImageGalleryItem;

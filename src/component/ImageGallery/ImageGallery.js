@@ -14,4 +14,9 @@ const ImageGallery = ({ arrayImages, imgClick }) => {
   );
 };
 
+ImageGallery.propTypes = {
+  arrayImages: PropTypes.array,
+  imgClick: PropTypes.func,
+};
+
 export default ImageGallery;
